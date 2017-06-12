@@ -12,7 +12,7 @@ const scotch = require('./routes/scotch')
 
 app.use(scotch);
 
-const port = process.env.POR || 3000;
+const port = process.env.DATABASE_URL || 'postgresql://localhost/beverages';
 app.listen(port, () =>{
   console.log(`Listening on ${port}`)
 })
