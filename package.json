@@ -1,0 +1,25 @@
+{
+  "name": "scotch_crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgonzer/scotchCRUD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgonzer/scotchCRUD/issues"
+  },
+  "homepage": "https://github.com/mgonzer/scotchCRUD#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "knex": "^0.13.0",
+    "pg": "^6.2.4"
+  }
+}
