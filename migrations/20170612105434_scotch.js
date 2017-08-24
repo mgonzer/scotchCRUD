@@ -7,6 +7,7 @@ exports.up = function(knex, Promise) {
       table.string('flavor').notNull();
       table.string('region').notNull();
       table.integer('rating');
+      table.integer('price');
     })
 
 };
