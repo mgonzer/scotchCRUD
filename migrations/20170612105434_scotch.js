@@ -8,6 +8,7 @@ exports.up = function(knex, Promise) {
       table.string('region').notNull();
       table.integer('rating');
       table.integer('price');
+      table.string('url');
     })
 
 };
